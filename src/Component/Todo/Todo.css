@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color:rgba(4, 33, 38, 0.959);
+}
+.todo-Container{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.input-section{
+    background-color: rgba(6, 59, 67, 0.425);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(65, 59, 59);
+}
+h1{
+    margin-bottom: 15px;
+    color:rgba(16, 107, 121, 0.804);
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid rgba(7, 135, 155, 0.425);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color:transparent;
+    color: rgba(16, 107, 121, 0.804);
+}
+input::placeholder{
+    color:rgba(16, 107, 121, 0.804) ;
+}
+ul{
+    padding: 0;
+    text-align: left;
+}
+ul li{
+    list-style: none;
+    background-color: rgba(6, 59, 67, 0.425);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: rgba(16, 107, 121, 0.804);
+    box-shadow: 0 4px 6px rgb(65, 59, 59);
+    display: flex;
+    
+}
+ul li i{
+    text-align: right;
+    flex: 2;
+}
+.modal{
+    margin: auto;
+width: 300px;
+text-align: center;
+background-color: rgba(6, 59, 67, 0);
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgb(65, 59, 59);
+} 
+.ModalTitle{
+    font-size:x-large;
+    color: rgba(16, 107, 121, 0.804);
+}
+.input-sctn{
+    background-color: rgba(6, 59, 67, 0.425);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(65, 59, 59);
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+button{
+    margin-right: 5px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: rgb(13, 104, 104);
+}
